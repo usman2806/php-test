@@ -26,3 +26,4 @@ $greet = function ($name) use (&$message) {
 
 echo $greet("shikki");
 echo $message;
+
