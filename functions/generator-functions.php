@@ -1,0 +1,18 @@
+<?php
+
+// They can't return but they yield
+
+function countDown(int $start): Generator
+{
+    for ($i = $start; $i > 0; $i--) {
+        echo "Generating number \n";
+        yield random_int(1, 100);
+    }
+
+}
+
+
+foreach (countDown(5) as $i) {
+    echo "Echoing number ... \n";
+    echo "$i \n";
+}
