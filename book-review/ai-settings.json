@@ -1,0 +1,9 @@
+{
+    "preferences": {
+        "coworkWebSearchEnabled": true
+    },
+    "mcpServers": {
+        "api_url": "https://agentrouter.org/",
+        "api_key": "sk-3TYXuoD0XvnYHkZW4ZNO6d0fhq8U9gRgcylFPN1k3F4xjT7g"
+    }
+}
